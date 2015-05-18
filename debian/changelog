@@ -1,0 +1,5 @@
+ruby-slack-notifier (1.2.1-1) experimental; urgency=medium
+
+  * Initial release (Closes: #785593)
+
+ -- Balasankar C <balasankarc@autistici.org>  Mon, 18 May 2015 14:50:06 +0530
