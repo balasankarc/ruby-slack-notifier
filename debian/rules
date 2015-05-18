@@ -13,3 +13,8 @@
 
 %:
 	dh $@ --buildsystem=ruby --with ruby
+override_dh_install:
+	dh_install
+	rm -rf debian/ruby-slack-notifier/usr/bin
+override_dh_installchangelogs:
+	dh_installchangelogs changelog.md
