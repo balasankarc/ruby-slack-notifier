@@ -3,7 +3,7 @@ Upstream-Name: slack-notifier
 Source: https://github.com/stevenosloan/slack-notifier
 
 Files: *
-Copyright: 2014 Steven Sloan
+Copyright: 2014 Steven Sloan <stevenosloan@gmail.com>
 License: Expat
 
 Files: debian/*

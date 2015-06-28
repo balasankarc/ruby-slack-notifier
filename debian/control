@@ -16,6 +16,6 @@ Architecture: all
 XB-Ruby-Versions: ${ruby:Versions}
 Depends: ruby | ruby-interpreter, ${misc:Depends}, ${shlibs:Depends}
 Description: Ruby wrapper for posting to slack webhooks
- A slim ruby wrapper for posting to slack webhooks. Slack is a team
- communication tool that offers persistent chat rooms organized by topic, as
- well as private groups and direct messaging
+ This gem provides a slim ruby wrapper for posting to slack webhooks. Slack is 
+ a team communication tool that offers persistent chat rooms organized by topic,
+ as well as private groups and direct messaging
