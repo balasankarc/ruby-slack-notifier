@@ -3,7 +3,7 @@ Section: ruby
 Priority: optional
 Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
 Uploaders: Balasankar C <balasankarc@autistici.org>
-Build-Depends: debhelper (>= 7.0.50~), gem2deb, ruby-rspec (>= 3.0.0), rake
+Build-Depends: debhelper (>= 7.0.50~), gem2deb, rake, ruby-rspec (>= 3.0.0)
 Standards-Version: 3.9.6
 Vcs-Git: git://anonscm.debian.org/pkg-ruby-extras/ruby-slack-notifier.git
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-ruby-extras/ruby-slack-notifier.git;a=summary
@@ -14,8 +14,8 @@ XS-Ruby-Versions: all
 Package: ruby-slack-notifier
 Architecture: all
 XB-Ruby-Versions: ${ruby:Versions}
-Depends: ${shlibs:Depends}, ${misc:Depends}, ruby | ruby-interpreter
+Depends: ruby | ruby-interpreter, ${misc:Depends}, ${shlibs:Depends}
 Description: Ruby wrapper for posting to slack webhooks
- A slim ruby wrapper for posting to slack webhooks. Slack is a team 
- communication tool that offers persistent chat rooms organized by topic, as 
+ A slim ruby wrapper for posting to slack webhooks. Slack is a team
+ communication tool that offers persistent chat rooms organized by topic, as
  well as private groups and direct messaging

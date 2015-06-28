@@ -1,4 +1,4 @@
-ruby-slack-notifier (1.2.1-1) experimental; urgency=medium
+ruby-slack-notifier (1.2.1-1) unstable; urgency=medium
 
   * Initial release (Closes: #785593)
 
